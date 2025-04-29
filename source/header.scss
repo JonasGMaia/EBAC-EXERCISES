@@ -1,0 +1,37 @@
+@use 'config/variables';
+
+@mixin formTexts() {
+    color: variables.$secondaryColor;
+    text-decoration: none;
+}
+
+header {
+    background-color: variables.$quarternaryColor;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+
+        .menu {
+            display: flex;
+
+            li{
+                @include formTexts();
+                font-weight: bold;
+                margin-left: 24px;}
+
+            a{
+                @include formTexts();}
+
+        }
+        
+    }
+    
+}
+
+
