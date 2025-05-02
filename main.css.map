@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","C:/Users/jonas/OneDrive/%C3%81rea%20de%20Trabalho/EBAC/gulp/source/styles/variaveis.scss"],"names":[],"mappings":"AAEA;EACI,kBCHU","sourcesContent":["@use 'variaveis';\r\n\r\nbody{\r\n    background-color: variaveis.$corPrincipal;\r\n}","$corPrincipal:rgb(255, 196, 0);"],"file":"../main.css"}
