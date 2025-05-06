@@ -1,15 +1,15 @@
 {
-  "name": "sass",
+  "name": "less2",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch source/main.scss:build/main.css",
+    "less": "less-watch-compiler ./src/styles ./build/styles main.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "sass": "^1.87.0"
+    "less": "^4.3.0"
   }
 }
